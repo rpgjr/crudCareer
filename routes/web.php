@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'CareerController@index');
+Route::get('/upload', 'CareerController@index2');
 Route::get('/', 'CareerController@showCareers');
 Route::post('/save', 'CareerController@save')->name('save.career');
+Route::post('/store','CareerController@store')->name('upload.file');
 Route::patch('/update/{id}', ['as' => 'career.update', 'uses' => 'CareerController@update']);
 Route::delete('/delete/{id}', ['as' => 'career.delete', 'uses' => 'CareerController@delete']);

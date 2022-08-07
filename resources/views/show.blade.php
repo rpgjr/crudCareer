@@ -5,9 +5,9 @@
     <div class="row">
         <div class="col-md-12 col-md-offset-1">
             <h1>Career Crud
-                <button type="button" class="btn btn-primary pull-right" data-bs-toggle="modal" data-bs-target="#addNew">
-                    Add career
-                  </button>
+                <button type="button" class="btn btn-primary pull-right" data-bs-toggle="modal" data-bs-target="#addNew">Add career</button>
+                <a href="/upload"><button type="button" class="btn btn-outline-dark" style="float: right">Submit Requirements</button></a>
+
             </h1>
         </div>
     </div>
