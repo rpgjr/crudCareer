@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -16,6 +17,7 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 
+    protected $namespace = 'App\\Http\\Controllers';
     /**
      * Bootstrap any application services.
      *

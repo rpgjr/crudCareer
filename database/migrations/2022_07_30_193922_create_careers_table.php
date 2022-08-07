@@ -18,7 +18,7 @@ class CreateCareersTable extends Migration
             $table->string('job_name');
             $table->string('company');
             $table->integer('salary');
-            $table->longText('description');
+            $table->lonText('description');
             $table->string('category');
             $table->string('email');
             $table->string('number');
